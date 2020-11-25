@@ -1,0 +1,148 @@
+/* Global styles */
+
+body {
+    padding: 100px 20px 0 20px;
+    font-family: 'Questrial', sans-serif;
+}
+
+.center-layout {
+    max-width: 800px;
+    margin: auto;
+}
+
+.center-layout, form {
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    border: solid transparent 1px;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 20px;
+    margin: 10px 0;
+    background-color: #eae8e8;
+    font-size: 14px;
+}
+
+button:hover {
+    border: solid black 1px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+input[type="text"], input[type="password"] {
+    border: solid 1px black;
+    padding: 20px;
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+/* header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #ff9b42;
+}
+
+header a {
+    padding: 0 10px;
+    font-size: 14px;
+}
+
+.title-link {
+    font-size: 10px;
+}
+
+#appbar-signin-button,
+#appbar-signout-button,
+#appbar-addtune-button,
+#appbar-mysongs-link {
+    display: none;
+}
+
+/* Intro Page */
+img {
+    width: 500px;
+    align-self: center;
+}
+
+/* Select Artist */
+
+#select-artist {
+    display: flex;
+    flex-direction: column;
+}
+
+#select-artist a {
+    padding: 10px 0;
+}
+
+/* Sign in */
+#signin-google {
+    background-color: rgb(219, 68, 55);
+    color: white;
+}
+
+#signin-facebook {
+    background-color: rgb(59, 89, 152);
+    color: white;
+}
+
+#signin-twitter {
+    background-color: rgb(29, 161, 242);
+    color: white;
+}
+
+/* My Songs */
+.song-container {
+    margin-bottom: 40px;
+}
+
+.song-container button {
+    margin: 0 10px 0 0;
+    padding: 10px 20px;
+}
+
+/* Listen */
+audio {
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+select {
+    border: solid 1px black;
+    height: 50px;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+textarea {
+    padding: 10px;
+    font-size: 14px;
+}
+
+.comment-wrapper {
+    background-color: #fbfafa;
+    padding: 10px;
+    margin: 15px 0;
+    border-radius: 10px;
+}
+
+.comment-wrapper p:nth-child(2) {
+    color: grey;
+    font-size: 12px;
+}
