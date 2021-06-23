@@ -1,11 +1,14 @@
-# CLI command
+# Start dev server
+以下コマンド実行後に、 http://localhost:1234/index.html でアクセスできます。
 ```bash
-# start dev server
-npm start
+$ npm start
+```
 
-# build & deploy 
-npm run build
-firebase deploy
+# Build & Deploy 
+```bash
+$ npm run build
+# コマンド実行後にデプロイ先のURLなどが出ます。
+$ firebase deploy
 ```
 
 # Related URL
